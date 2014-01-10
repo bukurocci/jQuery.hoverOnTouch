@@ -1,0 +1,5 @@
+Gruntfile.js
+node_modules/
+package.json
+.DS_Store
+Thumbs.db
