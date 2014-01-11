@@ -19,6 +19,9 @@ $('a.example').hoverOnTouch({
 });
 ```
 
+##Demo
+[http://bukurocci.github.io/jQuery.hoverOnTouch/demo/](http://bukurocci.github.io/jQuery.hoverOnTouch/demo/)
+
 ##License
 MIT License
 
