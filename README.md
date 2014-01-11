@@ -15,7 +15,12 @@ $('a.example').hoverOnTouch({
 		specify a class name that is added to element when element is touched.
 		default: hover
 	*/
-	hoverClass: 'hover-example' 
+	hoverClass: 'hover-example',
+	/*
+		cancel :hover emulation when touchmove event is dispatched
+		default: true
+	*/
+	cancelOnTouchMove: true 
 });
 ```
 
