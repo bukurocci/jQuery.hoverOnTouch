@@ -1,7 +1,11 @@
 
 /*!
-*   jQuery.hoverOnTouch
-*/
+ *	jQuery.hoverOnTouch
+ *	Copyright 2014 Naokazu Shimabukuro
+ *	MIT License
+ *
+ *	https://github.com/bukurocci/jQuery.hoverOnTouch
+ */
 ;(function($, window, undefined) {
 
 	var $window = $(window);
