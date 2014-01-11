@@ -36,12 +36,7 @@
 
 			function handleTouchMove(evt) {
 
-				if(isMoveDetected) {
-
-					$element.off('touchmove', handleTouchMove);
-					return;
-				}
-
+				$element.off('touchmove', handleTouchMove);
 				$element.removeClass(params.hoverClass);
 				isMoveDetected = true;
 			}
@@ -51,6 +46,11 @@
 				if(!isMoveDetected) {
 
 					$element.removeClass(params.hoverClass);
+
+					if(params.cancelOnTouchMove) {
+						
+						$element.off('touchmove', handleTouchMove);
+					}
 				}
 			}
 
@@ -59,6 +59,11 @@
 				if(!isMoveDetected) {
 
 					$element.removeClass(params.hoverClass);
+
+					if(params.cancelOnTouchMove) {
+
+						$element.off('touchmove', handleTouchMove);
+					}
 				}
 			}
 
